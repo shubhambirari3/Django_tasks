@@ -1,0 +1,127 @@
+Microsoft Windows [Version 10.0.26100.2605]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\shubh\Projects\5Project_task>cd djangoThree
+
+C:\Users\shubh\Projects\5Project_task\djangoThree>python -m venv venv
+
+C:\Users\shubh\Projects\5Project_task\djangoThree>
+C:\Users\shubh\Projects\5Project_task\djangoThree>venv\Scripts\activate
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree>install django
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree>pip install django
+Collecting django
+  Using cached Django-5.1.4-py3-none-any.whl.metadata (4.2 kB)
+Collecting asgiref<4,>=3.8.1 (from django)
+  Using cached asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from django)
+  Using cached tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached Django-5.1.4-py3-none-any.whl (8.3 MB)
+Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.8.1 django-5.1.4 sqlparse-0.5.3 tzdata-2024.2
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree>django-admin startproject coreThree
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree>cd coreThree
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree\coreThree>code .
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoThree\coreThree>deactivate
+C:\Users\shubh\Projects\5Project_task\djangoThree\coreThree>cd..
+
+C:\Users\shubh\Projects\5Project_task\djangoThree>cd..
+
+C:\Users\shubh\Projects\5Project_task>cd djangoFour
+
+C:\Users\shubh\Projects\5Project_task\djangoFour>python -m venv venv
+
+C:\Users\shubh\Projects\5Project_task\djangoFour>venv\Scripts\activate
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>install django
+'install' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>pip install django
+Collecting django
+  Using cached Django-5.1.4-py3-none-any.whl.metadata (4.2 kB)
+Collecting asgiref<4,>=3.8.1 (from django)
+  Using cached asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from django)
+  Using cached tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached Django-5.1.4-py3-none-any.whl (8.3 MB)
+Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.8.1 django-5.1.4 sqlparse-0.5.3 tzdata-2024.2
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>django - admin startproject coreFour
+'django' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>cd coreFour
+The system cannot find the path specified.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>django-admin startproject coreFour
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>cd coreFour code .
+The system cannot find the path specified.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour>cd coreFour
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour\coreFour> code .
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFour\coreFour>deactivate
+C:\Users\shubh\Projects\5Project_task\djangoFour\coreFour>cd C:\Users\shubh\Projects\5Project_task\djangoFive
+
+C:\Users\shubh\Projects\5Project_task\djangoFive> python -m venv venv
+
+C:\Users\shubh\Projects\5Project_task\djangoFive>venv\Scripts\activate
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive> pip install django
+Collecting django
+  Using cached Django-5.1.4-py3-none-any.whl.metadata (4.2 kB)
+Collecting asgiref<4,>=3.8.1 (from django)
+  Using cached asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting sqlparse>=0.3.1 (from django)
+  Using cached sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting tzdata (from django)
+  Using cached tzdata-2024.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Using cached Django-5.1.4-py3-none-any.whl (8.3 MB)
+Using cached asgiref-3.8.1-py3-none-any.whl (23 kB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Installing collected packages: tzdata, sqlparse, asgiref, django
+Successfully installed asgiref-3.8.1 django-5.1.4 sqlparse-0.5.3 tzdata-2024.2
+
+[notice] A new release of pip is available: 24.2 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive>django - admin startproject coreFive
+'django' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive>django-admin startproject coreFive
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive>cd coreFive
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive\coreFive>code .
+
+(venv) C:\Users\shubh\Projects\5Project_task\djangoFive\coreFive>deactivate
+C:\Users\shubh\Projects\5Project_task\djangoFive\coreFive>
