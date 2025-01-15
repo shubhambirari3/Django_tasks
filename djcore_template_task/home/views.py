@@ -11,4 +11,7 @@ def about(request):
 
 
 def template_sample(request):
-    return render(request, 'index.html')
+    return render(request, 'index.html') 
+
+def proj_template(request):
+    return render(request, 'proj_index.html')

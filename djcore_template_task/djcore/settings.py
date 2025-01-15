@@ -55,7 +55,10 @@ ROOT_URLCONF = 'djcore.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [r'C:\Users\shubh\Projects\django_sample\djcore\home\templates'],
+        'DIRS': [
+            r'C:\Users\shubh\Projects\Django_tasks\djcore_template_task\templates',
+            r'C:\Users\shubh\Projects\Django_tasks\djcore_template_task\home\templates'
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
