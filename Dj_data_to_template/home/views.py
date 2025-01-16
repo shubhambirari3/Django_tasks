@@ -36,6 +36,18 @@ def student_name(request):
     names = ["shubbham", "ram", "sham" ]
     return render(request, 'studentName.html', {'name': names})
 
+data = {
+    'title': 'Employee Details',
+    'employees': [
+        {'id': 1, 'name': 'Shubham', 'department': 'IT', 'salary': 60000},
+        {'id': 2, 'name': 'ram', 'department': 'HR', 'salary': 45000},
+        {'id': 3, 'name': 'sham', 'department': 'Finance', 'salary': 50000},
+    ]
+}
+
+def employee_details(request):
+    return render(request, 'emp_details.html', {'data': data})
+
 
 
     

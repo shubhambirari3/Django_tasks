@@ -56,8 +56,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            r'C:\Users\shubh\Projects\Django_tasks\djcore_template_task\templates',
-            r'C:\Users\shubh\Projects\Django_tasks\djcore_template_task\home\templates'
+            r'C:\Users\shubh\Projects\Django_tasks\Dj_data_to_template\templates',
+            r'C:\Users\shubh\Projects\Django_tasks\Dj_data_to_template\home\templates'
             ],
         'APP_DIRS': True,
         'OPTIONS': {
