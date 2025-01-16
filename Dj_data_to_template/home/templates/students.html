@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Info</title>
+</head>
+<body>
+    <h1>Welcome Students!</h1>
+    <p>This is the student info page</p>
+
+    <h2>Welcome, {{students}}!</h2>
+    
+    <table border="2">
+        <tr>
+            <th>Student</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        {% for key, student in students.items %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.age }}</td>
+            <td>{{ student.grade }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
